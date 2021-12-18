@@ -269,7 +269,7 @@
 	margin-left: .125em
 }
 
-.post-inner-html em {
+/* .post-inner-html em {
 	font-style: inherit;
 	font-weight: inherit;
 	text-decoration: inherit;
@@ -281,7 +281,7 @@
 	-moz-text-emphasis-position: under left;
 	-ms-text-emphasis-position: under left;
 	text-emphasis-position: under left
-}
+} */
 
 .post-inner-html figure img {
 	display: block;
