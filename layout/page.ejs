@@ -11,6 +11,12 @@
   <%- partial(`_partial/page/${page.layout}`, {post: page, index: false}) %>
 </div>
 
+<% } else if (page.layout === 'about') { %>
+
+<div class="<%= page.layout %>">
+  <%- partial(`_partial/page/${page.layout}`, {post: page, index: false}) %>
+</div>
+
 <% } else { %>
 
 <div class="<%= page.layout %>">
