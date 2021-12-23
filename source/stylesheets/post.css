@@ -35,8 +35,9 @@
 }
 
 .post-inner-html img {
-	margin-top: 16px;
-	margin-bottom: 16px;
+	/* margin-top: 16px;
+	margin-bottom: 16px; */
+	margin: 16px auto;
   display: block;
   max-width: 100%;
   border: 0;
@@ -63,7 +64,7 @@
 }
 
 .post-inner-html h1,.post-inner-html h2,.post-inner-html h3,.post-inner-html h4,.post-inner-html h5,.post-inner-html h6 {
-	font-weight: inherit;
+	/* font-weight: inherit; */
 	color: var(--color-post-main);
 	background-color: transparent
 }
@@ -362,9 +363,9 @@
     user-select: none;
     -webkit-appearance: none;
     font-size: 13px;
-    font-weight: bold;
     line-height: 20px;
     color: #999;
+	border-radius: 2px;
     -webkit-transition: opacity .3s ease-in-out;
     -o-transition: opacity .3s ease-in-out;
     transition: opacity .3s ease-in-out;
@@ -373,7 +374,7 @@
 }
 
 .btn-copy-able:hover {
-	color: var(--plyr-color-main);
+	color: var(--color-type);
 }
 
 .highlight-container:hover .btn-copy, .highlight-container:active .btn-copy {

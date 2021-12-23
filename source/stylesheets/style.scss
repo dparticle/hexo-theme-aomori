@@ -95,7 +95,8 @@ img:not([src]):not([srcset]) {
 
         &-page-title {
             font-size: 14px;
-            font-weight: 300;
+            // font-weight: 300;
+            font-weight: 500;
             margin-left: 10px;
             user-select: none;
         }
@@ -345,7 +346,8 @@ img:not([src]):not([srcset]) {
                 p {
                     margin: 0;
                     font-size: 12px;
-                    font-weight: 300;
+                    // font-weight: 300;
+                    color: var(--color-white);
                 }
             }
         }
@@ -606,9 +608,9 @@ img:not([src]):not([srcset]) {
                     }
                 }
 
-                .article-entry {
-                    font-weight: 300;
-                }
+                // .article-entry {
+                //     font-weight: 300;
+                // }
             }
         }
 
@@ -696,7 +698,7 @@ img:not([src]):not([srcset]) {
                 padding: 0 0 10px 80px;
 
                 p {
-                    font-weight: 300;
+                    // font-weight: 300;
                     margin: 0;
                 }
             }
@@ -757,7 +759,7 @@ img:not([src]):not([srcset]) {
 
         .article-title {
             font-size: 1.4rem;
-            font-weight: 300;
+            // font-weight: 300;
             padding-top: 15px;
 
             a {
@@ -900,6 +902,7 @@ img:not([src]):not([srcset]) {
             h3 {
                 color: var(--color-black);
                 font-size: 16px;
+                // TODO article-refer font-weight
                 font-weight: 300;
                 margin-bottom: 15px;
             }
