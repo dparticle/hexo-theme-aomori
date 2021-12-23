@@ -10,3 +10,6 @@ import './gitalk'
 
 // Valine
 import './valine'
+
+// clipboard
+import './clipboard'

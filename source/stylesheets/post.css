@@ -344,3 +344,38 @@
 .post-inner-html sub {
 	bottom: -0.25em
 }
+
+.highlight-container {
+	position: relative;
+}
+
+.btn-copy {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    background-color: var(--color-white-light);
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #999;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    padding: 2px 6px;
+    opacity: 0;
+}
+
+.btn-copy-able:hover {
+	color: var(--plyr-color-main);
+}
+
+.highlight-container:hover .btn-copy, .highlight-container:active .btn-copy {
+	opacity: 1;
+}

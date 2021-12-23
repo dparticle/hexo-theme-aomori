@@ -116,6 +116,7 @@ gulp.task('js', async function () {
         'source/modules/typed.min.js',
         'source/modules/plyr.js',
         'source/modules/lazyload.min.js',
+        'source/modules/clipboard.min.js',
     ])
         .pipe(concat('build.js'))
         .pipe(gulp.dest('source/dist'))

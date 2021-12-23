@@ -24,6 +24,7 @@ module.exports = {
     "LazyLoad": true,
     "Valine": true,
     "DisqusJS": true,
+    "ClipboardJS": true,
   },
   extends: [
     "eslint:recommended",
