@@ -25,6 +25,10 @@
       <meta name="google-site-verification" content="<%= config.aomori_google_site.id %>" />
     <% } %>
 
+    <% if (config.aomori_baidu_site && config.aomori_baidu_site.enable){ %>
+        <meta name="baidu-site-verification" content="<%= config.aomori_baidu_site.id %>" />
+        <% } %>
+
     <% if (config.aomori_search_algolia){ %>
         <%- algolia_search_config() %>
     <% } %>
