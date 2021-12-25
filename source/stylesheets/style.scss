@@ -237,6 +237,21 @@ img:not([src]):not([srcset]) {
             font-size: 18px;
             line-height: 40px;
         }
+
+        &-social {
+            display: flex;
+
+            a {
+                align-items: center;
+                display: flex;
+                fill: var(--color-type);
+                padding: 0 5px;
+            }
+
+            a:hover {
+                fill: var(--color-light);
+            }
+        }
     }
 
     &-close {
